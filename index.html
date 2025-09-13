@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Eating Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-apple-alt"></i>
+                <span>NutriLife</span>
+            </div>
+            <nav class="nav">
+                <a href="#hero">Home</a>
+                <a href="#nutrition">Nutrition</a>
+                <a href="#meal-plans">Meal Plans</a>
+                <a href="#tips">Tips</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="split-hero">
+            <div class="hero-left">
+                <div class="hero-content">
+                    <h1>Nourish Your Body, Feed Your Soul</h1>
+                    <p>Discover the power of healthy eating with science-based nutrition guidance and delicious meal ideas.</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">80%</span>
+                            <span class="stat-label">Health from Diet</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Daily Servings</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2L</span>
+                            <span class="stat-label">Water Daily</span>
+                        </div>
+                    </div>
+                    <button class="cta-button">Start Eating Healthy</button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="food-illustration">
+                    <div class="food-item fruit">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <div class="food-item veggie">
+                        <i class="fas fa-carrot"></i>
+                    </div>
+                    <div class="food-item protein">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <div class="food-item grain">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="food-item dairy">
+                        <i class="fas fa-cheese"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nutrition" class="nutrition-section">
+            <div class="container">
+                <h2>Essential Nutrition Information</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3><i class="fas fa-dumbbell"></i> Macronutrients</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="macro-grid">
+                                <div class="macro-item">
+                                    <div class="macro-icon protein-color">
+                                        <i class="fas fa-fish"></i>
+                                    </div>
+                                    <h4>Proteins</h4>
+                                    <p>Build and repair tissues. Aim for 0.8g per kg of body weight daily.</p>
+                                    <ul>
+                                        <li>Lean meats and fish</li>
+                                        <li>Eggs and dairy</li>
+                                        <li>Legumes and nuts</li>
+                                    </ul>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-icon carb-color">
+                                        <i class="fas fa-bread-slice"></i>
+                                    </div>
+                                    <h4>Carbohydrates</h4>
+                                    <p>Primary energy source. Choose complex carbs for sustained energy.</p>
+                                    <ul>
+                                        <li>Whole grains</li>
+                                        <li>Fruits and vegetables</li>
+                                        <li>Legumes</li>
+                                    </ul>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-icon fat-color">
+                                        <i class="fas fa-tint"></i>
+                                    </div>
+                                    <h4>Healthy Fats</h4>
+                                    <p>Essential for hormone production and nutrient absorption.</p>
+                                    <ul>
+                                        <li>Avocados and olive oil</li>
+                                        <li>Nuts and seeds</li>
+                                        <li>Fatty fish</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3><i class="fas fa-pills"></i> Vitamins & Minerals</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="vitamin-grid">
+                                <div class="vitamin-item">
+                                    <h4>Vitamin C</h4>
+                                    <p>Immune support, collagen production</p>
+                                    <span class="food-sources">Citrus fruits, berries, bell peppers</span>
+                                </div>
+                                <div class="vitamin-item">
+                                    <h4>Vitamin D</h4>
+                                    <p>Bone health, immune function</p>
+                                    <span class="food-sources">Fatty fish, fortified milk, sunlight</span>
+                                </div>
+                                <div class="vitamin-item">
+                                    <h4>Iron</h4>
+                                    <p>Oxygen transport, energy production</p>
+                                    <span class="food-sources">Red meat, spinach, lentils</span>
+                                </div>
+                                <div class="vitamin-item">
+                                    <h4>Calcium</h4>
+                                    <p>Bone and teeth health</p>
+                                    <span class="food-sources">Dairy, leafy greens, almonds</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3><i class="fas fa-utensils"></i> Portion Control</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="portion-guide">
+                                <div class="portion-item">
+                                    <div class="portion-visual">
+                                        <i class="fas fa-hand-paper"></i>
+                                    </div>
+                                    <div class="portion-info">
+                                        <h4>Protein (Palm Size)</h4>
+                                        <p>3-4 oz serving, about the size of your palm</p>
+                                    </div>
+                                </div>
+                                <div class="portion-item">
+                                    <div class="portion-visual">
+                                        <i class="fas fa-hand-rock"></i>
+                                    </div>
+                                    <div class="portion-info">
+                                        <h4>Vegetables (Fist Size)</h4>
+                                        <p>1-2 cups, about the size of your fist</p>
+                                    </div>
+                                </div>
+                                <div class="portion-item">
+                                    <div class="portion-visual">
+                                        <i class="fas fa-hand-peace"></i>
+                                    </div>
+                                    <div class="portion-info">
+                                        <h4>Carbs (Cupped Hand)</h4>
+                                        <p>1/2 cup, about the size of your cupped hand</p>
+                                    </div>
+                                </div>
+                                <div class="portion-item">
+                                    <div class="portion-visual">
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="portion-info">
+                                        <h4>Fats (Thumb Size)</h4>
+                                        <p>1 tbsp, about the size of your thumb</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3><i class="fas fa-clock"></i> Meal Timing</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="timing-schedule">
+                                <div class="meal-time">
+                                    <div class="time-badge">7:00 AM</div>
+                                    <h4>Breakfast</h4>
+                                    <p>Start your day with protein and complex carbs to fuel your morning.</p>
+                                </div>
+                                <div class="meal-time">
+                                    <div class="time-badge">10:00 AM</div>
+                                    <h4>Morning Snack</h4>
+                                    <p>Light snack with fruits or nuts to maintain energy levels.</p>
+                                </div>
+                                <div class="meal-time">
+                                    <div class="time-badge">1:00 PM</div>
+                                    <h4>Lunch</h4>
+                                    <p>Balanced meal with lean protein, vegetables, and whole grains.</p>
+                                </div>
+                                <div class="meal-time">
+                                    <div class="time-badge">4:00 PM</div>
+                                    <h4>Afternoon Snack</h4>
+                                    <p>Healthy snack to prevent evening overeating.</p>
+                                </div>
+                                <div class="meal-time">
+                                    <div class="time-badge">7:00 PM</div>
+                                    <h4>Dinner</h4>
+                                    <p>Lighter meal with emphasis on vegetables and lean proteins.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="meal-plans" class="meal-plans-section">
+            <div class="container">
+                <h2>Sample Meal Plans</h2>
+                <div class="meal-plans-grid">
+                    <div class="meal-plan-card">
+                        <div class="plan-header">
+                            <h3>Mediterranean Diet</h3>
+                            <span class="plan-badge">Heart Healthy</span>
+                        </div>
+                        <div class="plan-content">
+                            <p>Rich in olive oil, fish, fruits, vegetables, and whole grains.</p>
+                            <div class="plan-benefits">
+                                <span>✓ Reduces heart disease risk</span>
+                                <span>✓ Anti-inflammatory</span>
+                                <span>✓ Brain health support</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="meal-plan-card">
+                        <div class="plan-header">
+                            <h3>Plant-Based</h3>
+                            <span class="plan-badge">Eco-Friendly</span>
+                        </div>
+                        <div class="plan-content">
+                            <p>Focus on whole plant foods, minimal processed ingredients.</p>
+                            <div class="plan-benefits">
+                                <span>✓ Lower environmental impact</span>
+                                <span>✓ High fiber intake</span>
+                                <span>✓ Rich in antioxidants</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="meal-plan-card">
+                        <div class="plan-header">
+                            <h3>Balanced Plate</h3>
+                            <span class="plan-badge">Beginner Friendly</span>
+                        </div>
+                        <div class="plan-content">
+                            <p>Simple approach: half plate vegetables, quarter protein, quarter grains.</p>
+                            <div class="plan-benefits">
+                                <span>✓ Easy to follow</span>
+                                <span>✓ Nutritionally complete</span>
+                                <span>✓ Flexible options</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>This page is for educational purposes only.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Accordion functionality
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+        
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const accordionItem = header.parentElement;
+                const accordionContent = accordionItem.querySelector('.accordion-content');
+                const chevron = header.querySelector('.fa-chevron-down');
+                
+                // Close all other accordion items
+                accordionHeaders.forEach(otherHeader => {
+                    if (otherHeader !== header) {
+                        const otherItem = otherHeader.parentElement;
+                        const otherContent = otherItem.querySelector('.accordion-content');
+                        const otherChevron = otherHeader.querySelector('.fa-chevron-down');
+                        
+                        otherItem.classList.remove('active');
+                        otherContent.style.maxHeight = null;
+                        otherChevron.style.transform = 'rotate(0deg)';
+                    }
+                });
+                
+                // Toggle current accordion item
+                if (accordionItem.classList.contains('active')) {
+                    accordionItem.classList.remove('active');
+                    accordionContent.style.maxHeight = null;
+                    chevron.style.transform = 'rotate(0deg)';
+                } else {
+                    accordionItem.classList.add('active');
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                    chevron.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+
+        // Food items animation
+        const foodItems = document.querySelectorAll('.food-item');
+        foodItems.forEach((item, index) => {
+            item.style.animationDelay = `${index * 0.2}s`;
+        });
+    </script>
+</body>
+</html>
